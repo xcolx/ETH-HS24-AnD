@@ -27,6 +27,11 @@ public class Main {
 		input = Arrays.copyOf(unsortedArray, 100);
 		SelectionSort.sort(input);
 		System.out.println("SelectionSort: " + Arrays.toString(input));
+		
+		//MergeSort
+		input = Arrays.copyOf(unsortedArray, 100);
+		MergeSort.sort(input);
+		System.out.println("MergeSort: " + Arrays.toString(input));
 	}
 	
 }
