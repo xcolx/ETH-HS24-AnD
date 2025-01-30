@@ -32,6 +32,11 @@ public class Main {
 		input = Arrays.copyOf(unsortedArray, 100);
 		MergeSort.sort(input);
 		System.out.println("MergeSort: " + Arrays.toString(input));
+		
+		//QuickSort
+		input = Arrays.copyOf(unsortedArray, 100);
+		QuickSort.sort(input);
+		System.out.println("QuickSort: " + Arrays.toString(input));
 	}
 	
 }
